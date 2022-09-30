@@ -1,0 +1,29 @@
+{
+  "name": "rocket-maths-amplify-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-react": "^3.5.4",
+    "@chakra-ui/icons": "^2.0.10",
+    "@chakra-ui/react": "^2.3.4",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "aws-amplify": "^4.3.36",
+    "framer-motion": "^7.3.6",
+    "lottie-react": "^2.3.1",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-timer-hook": "^3.0.5"
+  },
+  "devDependencies": {
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.1"
+  }
+}

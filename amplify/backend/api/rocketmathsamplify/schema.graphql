@@ -1,0 +1,39 @@
+type Levels @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  cardTitle: String
+  badgeExists: Boolean
+  badgeColor: String
+  displayText: String
+  cardDescription: String
+  image: String
+  buttonLabel: String
+  linkTo: String
+  order: Int
+  pageName: String
+  isLocked: Boolean
+  levelCode: String
+  badgeTitle: String
+}
+
+type Navigation @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  cardTitle: String
+  badgeExists: Boolean
+  badgeTitle: String
+  badgeColor: String
+  cardDescription: String
+  image: String
+  buttonLabel: String
+  linkTo: String
+  order: Int
+  pageName: String
+  isLocked: Boolean
+}
+
+type PageHeading @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  heading: String
+  subHeading: String
+  pageName: String
+}
+ 

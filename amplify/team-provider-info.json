@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-rocketmathsamplify-staging-100859-authRole",
+      "UnauthRoleArn": "arn:aws:iam::216048667737:role/amplify-rocketmathsamplify-staging-100859-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::216048667737:role/amplify-rocketmathsamplify-staging-100859-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-rocketmathsamplify-staging-100859-deployment",
+      "UnauthRoleName": "amplify-rocketmathsamplify-staging-100859-unauthRole",
+      "StackName": "amplify-rocketmathsamplify-staging-100859",
+      "StackId": "arn:aws:cloudformation:ap-south-1:216048667737:stack/amplify-rocketmathsamplify-staging-100859/694df360-3995-11ed-9b93-06936d13add0",
+      "AmplifyAppId": "dxik9kq4epksb"
+    }
+  }
+}
